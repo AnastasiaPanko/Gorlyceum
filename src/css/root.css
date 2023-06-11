@@ -1,0 +1,16 @@
+:root {
+    --oswald-font: 'Oswald', sans-serif;
+    --extralight-font: 200;
+    --light-font: 300;
+    --regular-font: 400;
+    --dark-gray-color: hsl(217, 9%, 48%);
+    --gray-color: hsl(218, 7%, 58%);
+    --blue-color: hsl(197, 100%, 38%);
+    --white-color: hsl(0, 100%, 100%);
+    --dark-blue-color: hsl(219, 40%, 29%);
+    --light-blue-color: hsl(197, 75%, 75%);
+    --blue-grey-color: hsl(219, 33%, 65%);
+    --dark-blue-grey-color: hsl(198, 34%, 41%);
+    --dark-color-for-link: hsl(197, 63%, 70%);
+    --light-color-for-link: hsl(197, 75%, 75%);
+}

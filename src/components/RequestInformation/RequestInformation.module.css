@@ -1,0 +1,50 @@
+.sizeBox {
+    margin: 5% 12%;
+}
+.button {
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        var(--dark-blue-color) 70%,
+        var(--blue-color) 30%
+    );
+    border: 0;
+    border-radius: 4px;
+}
+.flexBlock {
+    display: flex;
+    flex-direction: row;
+}
+.informationBlock {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    margin: 3.5%;
+    align-self: center;
+    max-height: 55px;
+}
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caption {
+    margin: 0;
+    align-self: start;
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-weight: var(--light-font);
+}
+.description {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-top: 0.5%;
+    color: var(--blue-grey-color);
+}
+.arrowDiv {
+    align-self: center;
+    margin-right: 4.5%;
+}

@@ -1,0 +1,10 @@
+.mainPage {
+    /*  */
+    font-family: var(--oswald-font);
+}
+
+.informationBlocks {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0;
+}

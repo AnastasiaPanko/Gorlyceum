@@ -1,0 +1,96 @@
+.colorDiv {
+    background-color: var(--dark-blue-color);
+}
+.margin {
+    margin: 0 12%;
+}
+.caption {
+    color: var(--white-color);
+    margin: 0;
+    font-weight: var(--light-font);
+    margin-bottom: 3%;
+}
+.flexBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactBlock {
+    display: flex;
+    flex-direction: column;
+}
+.rowDirection {
+    display: flex;
+    flex-direction: row;
+}
+.linkForContact {
+    margin-bottom: 3%;
+}
+.description {
+    color: var(--white-color);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    margin: 0;
+    text-decoration: none;
+    margin-left: 3%;
+    align-self: center;
+    width: 70%;
+}
+.description:hover {
+    text-decoration: underline 1px var(--white-color);
+}
+.svgForContact {
+    height: 30px;
+    align-self: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.linkStyles {
+    width: 100px;
+    margin-bottom: 5%;
+    /* background: linear-gradient(
+        90deg,
+        var(--dark-color-for-link) 20%,
+        var(--light-color-for-link) 80%
+    ); */
+    background: linear-gradient(
+        270deg,
+        var(--light-color-for-link) 75%,
+        var(--dark-color-for-link) 25%
+        );
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 2%;
+}
+.svgForSocial {
+    height: 18px;
+    margin-left: 3%;
+}
+.descriptionForSocial {
+    color: var(--white-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: var(--extra-light-font);
+    align-self: center;
+    width: 75%;
+}
+.linkForSocial {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: var(--extra-light-font);
+    align-self: center;
+    color: var(--dark-blue-grey-color);
+    margin-left: 5%;
+    text-decoration: none;
+    align-self: center;
+}
